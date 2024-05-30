@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K4 CAPTCHA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="captcha-container">
+        <h2>K4 CAPTCHA</h2>
+        <canvas id="captcha" width="200" height="50"></canvas>
+        <button onclick="generateCaptcha()">Refresh CAPTCHA</button>
+        <input type="text" id="captcha-input" placeholder="Enter CAPTCHA">
+        <button onclick="validateCaptcha()">Submit</button>
+        <p id="captcha-status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
